@@ -10,8 +10,6 @@ dependencies {
     compile 'org.jboss.aerogear:aerogear-android-push:3.0.1'
 }
 
-cdvMinSdkVersion = 16
-
 android {
     packagingOptions {
         exclude 'META-INF/maven/com.madgag/scprov-jdk15on/pom.properties'
